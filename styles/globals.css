@@ -19,6 +19,7 @@ footer a > div {
 }
 a > div{
     @apply text-slate-500 hover:text-slate-700 dark:text-slate-400
+        dark:hover:text-slate-200
 }
 p {
     @apply text-slate-500 dark:text-slate-400

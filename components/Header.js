@@ -1,5 +1,6 @@
 import Link from "next/link";
 import DarkModeToggleButton from "./Home/darkmode-toggle-button";
+import { useRouter } from "next/router";
 
 
 export default function Header() {
