@@ -9,7 +9,7 @@ export default function ProjectItem ({data}) {
     return(
    
           
-            <div className="flex flex-col mb-8 md:mb-0 bg-slate-300 dark:bg-slate-700  rounded-xl hover:shadow-xl shadow-slate-500 dark:shadow-gray-400">
+            <div className="flex flex-col mb-8 md:mb-0 bg-slate-300 dark:bg-slate-700  rounded-xl hover:shadow-xl shadow-slate-500 dark:shadow-gray-400 transition hover:translate-y-[-5px]">
                 <div className="w-full aspect-[6/5] relative">
                     <Image 
                         className="rounded-t-xl object-cover"
