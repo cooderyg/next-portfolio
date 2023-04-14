@@ -2,7 +2,7 @@ import { useTheme } from "next-themes"
 
 export default function DarkModeToggleButton () {
     
-    const {theme, setTheme} = useTheme('light');
+    const {theme, setTheme} = useTheme();
     const onClick = () => {
         if(theme === 'light'){
             setTheme('dark')

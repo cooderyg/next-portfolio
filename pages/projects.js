@@ -3,15 +3,9 @@ import { TOKEN, DATABASE_ID } from "@/config";
 import Layout from "@/components/Home/Layout";
 import ProjectItem from "@/components/projects/Project-item";
 export default function Projects({projects}) {
-  console.log(projects)
     return(
         <Layout>
-             <Head>
-                <title>강영규 포트폴리오</title>
-                <meta name="description" content="오늘도 빡코딩!" />
-                <link rel="icon" href="/favicon.ico" />
-            </Head>
-            <section className="grid grid-cols-1 max-w-[1520px] px-5 mx-auto md:grid-cols-2 md:gap-8 ">
+            <section className="grid grid-cols-1 max-w-[1520px] my-10  px-5 mx-auto md:grid-cols-2 md:gap-12 ">
               {projects.results.map((aProject)=>
                 <ProjectItem 
                   key={aProject.id}
@@ -43,11 +37,8 @@ export async function getStaticProps() {
           page_size: 100})
       };
       
-     const res = await fetch(`https://api.notion.com/v1/databases/${DATABASE_ID}/query`, options)
-      const projects = await res.json();
-      const projectNames = projects.results.map(aProject => aProject.properties.Name.title[0].plain_text)
-
-      // console.log(projectNames)
+    const res = await fetch(`https://api.notion.com/v1/databases/${DATABASE_ID}/query`, options)
+    const projects = await res.json();
 
     return {
       props: {projects}, 

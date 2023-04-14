@@ -6,7 +6,6 @@ import { useRouter } from "next/router";
 
 export default function Hero() {
     const router = useRouter();
-    console.log(router)
     return(
         <>
             <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col order-3 md:order-1 md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
@@ -21,7 +20,7 @@ export default function Hero() {
                 </div>
             </div>
             <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 order-2">
-                {/* 애니메이션넣을곳 Animation */}
+               
                 <Animation />
             </div>
         </>
