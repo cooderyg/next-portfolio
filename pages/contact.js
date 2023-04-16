@@ -6,7 +6,7 @@ import Head from "next/head";
 export default function Contact() {
     return(
         <Layout>
-            <div className="container relative text-lg flex flex-wrap md:justify-between justify-center md:flex-nowrap items-center py-8 lg:py-0 mx-auto md:min-h-[100vh] px-4 md:px-0">
+            <div className="container relative text-lg flex flex-wrap md:justify-between justify-center md:flex-nowrap items-center py-8 lg:py-0 mx-auto min-h-[700px] md:min-h-[100vh] px-4 md:px-0">
                 <div className="order-2">
                     <p className=" text-gray-900 dark:text-white text-2xl font-bold mt-0 md:mt-16 md:text-3xl lg:text-4xl text-center lg:text-left lg:break-keep">저에게 하고 싶은 말씀이 있으신가요?<span className="lg:block"> 연락을 주시면 빠른 시간 안에 답변 드리겠습니다!</span></p>
                     <a className="relative z-10 text-[#f9e000] block mt-4 md:mt-10 text-center lg:text-left translate-x-[-5px] lg:translate-x-0" href="https://open.kakao.com/o/szizGrff" target="_blank">
