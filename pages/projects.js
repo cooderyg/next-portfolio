@@ -5,7 +5,8 @@ import ProjectItem from "@/components/projects/Project-item";
 export default function Projects({projects}) {
     return(
         <Layout>
-            <section className="grid grid-cols-1 max-w-[1520px] my-10  px-5 mx-auto md:grid-cols-2 md:gap-12 ">
+             <h2 className="max-w-[1520px] my-10  px-5 md:px-16 lg:px-28 mx-auto text-4xl font-bold">프로젝트</h2>
+            <section className="grid grid-cols-1 max-w-[1520px] my-10  px-5 md:px-16 lg:px-28 mx-auto md:grid-cols-2 md:gap-12">
               {projects.results.map((aProject)=>
                 <ProjectItem 
                   key={aProject.id}

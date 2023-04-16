@@ -7,8 +7,8 @@ export default function Contact() {
     return(
         <Layout>
             <div className="relative text-lg flex flex-wrap lg:items-center justify-center mx-auto  lg:max-w-[1536px] min-h-[100vh]">
-                <div className="px-4 lg:px-8  max-w-768px">
-                    <p className="max-w-[768px] text-3xl font-bold mt-16 md:text-4xl text-center lg:text-left break-keep">저에게 하고 싶은 말씀이 있으신가요?<span className="lg:block"> 연락을 주시면 빠른 시간 안에 답변 드리겠습니다!</span></p>
+                <div className="px-4 md:px-16 lg:px-18 ">
+                    <p className=" text-gray-900 dark:text-white text-3xl font-bold mt-16 md:text-4xl text-center lg:text-left lg:break-keep">저에게 하고 싶은 말씀이 있으신가요?<span className="lg:block"> 연락을 주시면 빠른 시간 안에 답변 드리겠습니다!</span></p>
                     <a className="relative z-10 text-[#f9e000] block mt-10 text-center lg:text-left translate-x-[-5px] lg:translate-x-0" href="https://open.kakao.com/o/szizGrff" target="_blank">
                         <svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 inline-block mr-4">
                              <path strokeLinecap="round" strokeLinejoin="round" d="M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 01-.923 1.785A5.969 5.969 0 006 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337z" />

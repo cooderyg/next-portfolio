@@ -5,7 +5,7 @@ import DarkModeToggleButton from "./darkmode-toggle-button";
 export default function Header() {
     return(
         <>
-            <header className="text-gray-600 body-font">
+            <header className="text-gray-600 body-font  md:sticky top-0 bg-slate-50 dark:bg-slate-900 z-20">
                 <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
                     <Link href="/">
                         <div className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
@@ -16,9 +16,10 @@ export default function Header() {
                         </div>
                     </Link>
                     <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center space-x-5">
-                    <Link href="/"><div className="hover:text-gray-900">홈</div></Link>
-                    <Link href="/projects"><div className="hover:text-gray-900">프로젝트</div></Link>
-                    <Link href="/contact"><div className="hover:text-gray-900">연락하기</div></Link>
+                        <Link href="/"><div className="hover:text-gray-900">홈</div></Link>
+                        <Link href="/about-me"><div className="hover:text-gray-900">소개</div></Link>
+                        <Link href="/projects"><div className="hover:text-gray-900">프로젝트</div></Link>
+                        <Link href="/contact"><div className="hover:text-gray-900">연락하기</div></Link>
                     </nav>
                     <DarkModeToggleButton />
                 </div>
