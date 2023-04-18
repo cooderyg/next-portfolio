@@ -19,10 +19,22 @@ export default function AboutMe() {
                     <li>웹표준</li>
                     <li>JS</li>
                     <li>JQery</li>
+                    <li>Lottie.js</li>
                     <li>Tailwind CSS</li>
+                    <li>Recoil</li>
                     <li>SCSS</li>
                     <li>SEO</li>
                     <li>Figma</li>
+                </ul>
+            </section>
+            <section>
+                <h2>현재 관심있는 것들(notion api로 바꾸기)</h2>
+                <ul>
+                    <li>Single Page Application(React, Next.js, Recoil, react-query)</li>
+                    <li>REST API, Graphql</li>
+                    <li>웹의 완성도</li>
+                    <li>리팩터링</li>
+                    <li>TDD</li>
                 </ul>
             </section>
         </Layout>

@@ -1,4 +1,3 @@
-import Head from "next/head";
 import { TOKEN, DATABASE_ID } from "@/config";
 import Layout from "@/components/Home/Layout";
 import ProjectItem from "@/components/projects/Project-item";
