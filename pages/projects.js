@@ -17,7 +17,7 @@ export default function Projects({projects}) {
     )
 }
   //빌드타임 호출
-export async function getStaticProps() {
+export async function getServerSideProps() {
   
     const options = {
         method: 'POST',
