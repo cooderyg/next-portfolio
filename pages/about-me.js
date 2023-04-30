@@ -14,7 +14,9 @@ export default function AboutMe() {
             <section>
                 <h2>주요기술(notion api로 바꾸기)</h2>
                 <ul>
-                    <li>React</li>
+                    <li>Node.js</li>
+                    <li>Nest.js</li>
+                    <li>React.js</li>
                     <li>Next.js</li>
                     <li>웹표준</li>
                     <li>JS</li>
@@ -25,16 +27,6 @@ export default function AboutMe() {
                     <li>SCSS</li>
                     <li>SEO</li>
                     <li>Figma</li>
-                </ul>
-            </section>
-            <section>
-                <h2>현재 관심있는 것들(notion api로 바꾸기)</h2>
-                <ul>
-                    <li>Single Page Application(React, Next.js, Recoil, react-query)</li>
-                    <li>REST API, Graphql</li>
-                    <li>웹의 완성도</li>
-                    <li>리팩터링</li>
-                    <li>TDD</li>
                 </ul>
             </section>
         </Layout>
